@@ -1,0 +1,55 @@
+Arguments: 
+  /home/antariksh/.nvm/versions/node/v16.4.2/bin/node /home/antariksh/.nvm/versions/node/v16.4.2/bin/yarn add @blueprtintjs/core --save
+
+PATH: 
+  /home/antariksh/.nvm/versions/node/v16.4.2/bin:/home/antariksh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.4.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@blueprtintjs%2fcore: Not found
+      at Request.params.callback [as _callback] (/home/antariksh/.nvm/versions/node/v16.4.2/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/antariksh/.nvm/versions/node/v16.4.2/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (/home/antariksh/.nvm/versions/node/v16.4.2/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (/home/antariksh/.nvm/versions/node/v16.4.2/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1329:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "fbdashboard",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "next": "11.0.1",
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+      "eslint": "7.31.0",
+      "eslint-config-next": "11.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

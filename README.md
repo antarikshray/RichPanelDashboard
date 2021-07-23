@@ -1,2 +1,11 @@
-# RichPanelDashboard
-A dashboard Built using React.js, Next.js, Blueprint.js, Facebook Graph API
+
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+#or
+yarn dev
+```

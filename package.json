@@ -1,0 +1,34 @@
+{
+  "name": "fbdashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^3.47.0",
+    "@blueprintjs/icons": "^3.27.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-facebook-login": "^4.1.1",
+    "react-toastify": "^7.0.4",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.6"
+  }
+}
